@@ -81,7 +81,7 @@ public class AutoWidgetView extends RelativeLayout {
     public AutoWidgetView(Context context, AttributeSet attrs)
     {
         super(context, attrs);
-        Log.d(TAG, "AutoWidgetView create");
+        Log.d(TAG, "AutoWidgetView create!");
         mContext = context;
         LayoutInflater.from(context).inflate(R.layout.auto_widget_default_layout_changan, this);
         mAutoWidgetTurnInfoContainer = (RelativeLayout)findViewById(R.id.auto_widget_turn_info_container);
