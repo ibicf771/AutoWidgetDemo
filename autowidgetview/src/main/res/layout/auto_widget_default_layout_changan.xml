@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="660px"
+    android:layout_height="500px"
+    android:background="@drawable/auto_widget_cn_backgroud">
+    <TextureView
+        android:id="@+id/widget_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/auto_widget_cn_backgroud"
+        android:scaleType="fitXY"/>
+
+    <RelativeLayout
+        android:id="@+id/widget_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/auto_widget_cn_backgroud">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/auto_widget_turn_info_container"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/lane_line_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"
+            android:layout_alignParentTop="true">
+
+            <FrameLayout
+                android:id="@+id/lane_item_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/auto_widget_landback"/>
+                <ImageView
+                    android:id="@+id/lane_item_image_0"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/lane_item_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/auto_widget_landback"/>
+                <ImageView
+                    android:id="@+id/lane_item_image_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:id="@+id/lane_item_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/auto_widget_landback"/>
+                <ImageView
+                    android:id="@+id/lane_item_image_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/lane_item_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/auto_widget_landback"/>
+                <ImageView
+                    android:id="@+id/lane_item_image_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:id="@+id/lane_item_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/auto_widget_landback"/>
+                <ImageView
+                    android:id="@+id/lane_item_image_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:id="@+id/lane_item_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/auto_widget_landback"/>
+                <ImageView
+                    android:id="@+id/lane_item_image_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:id="@+id/lane_item_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/auto_widget_landback"/>
+                <ImageView
+                    android:id="@+id/lane_item_image_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/lane_item_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/auto_widget_landback"/>
+                <ImageView
+                    android:id="@+id/lane_item_image_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/navi_info_layout"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:alpha="0.6"
+            android:visibility="visible"
+            android:background="#000000"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_height="100px">
+            <ImageView
+                android:id="@+id/auto_widget_turn_info_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25px"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:id="@+id/auto_widget_next_road_distance_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5px"
+                android:visibility="visible"
+                android:textSize="65px"
+                android:textColor="#FFFFFFFF"
+                android:text="300"/>
+            <TextView
+                android:id="@+id/auto_widget_distance_after"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="后"
+                android:layout_marginLeft="15px"
+                android:textSize="30px"
+                android:textColor="#FFFFFFFF"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25px"
+                android:text="进入"
+                android:textSize="30px"
+                android:textColor="#9da3b0"/>
+
+            <TextView
+                android:id="@+id/auto_widget_next_road_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="广顺南大街北.."
+                android:layout_marginLeft="25px"
+                android:textSize="36px"
+                android:textColor="#FFFFFFFF"/>
+
+            <TextView
+                android:id="@+id/auto_widget_current_road_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="阜通东大街2"
+                android:textSize="22sp"
+                android:textColor="#FFFFFFFF"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/navi_no_gps_layout"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:alpha="0.8"
+            android:background="#000000"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            android:layout_height="100px">
+
+            <ImageView
+                android:id="@+id/auto_widget_gps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25px"
+                android:src="@drawable/auto_widget_gps"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:id="@+id/auto_widget_gps_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10px"
+                android:textSize="45px"
+                android:textColor="#FFFFFFFF"
+                android:text="GPS定位中..."/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/tmc_bar_view"
+            android:layout_width="wrap_content"
+            android:layout_height="350px"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:background="@drawable/tmc_bar_background"
+            android:layout_marginTop="30px"
+            android:layout_marginRight="24px"/>
+
+    </RelativeLayout>
+</FrameLayout>
